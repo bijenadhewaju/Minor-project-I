@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookpage</title>
+    <style>
+       
+        .ul{
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+    
+    
+     .ul img
+        {
+            width: 193px;
+           height: 250px; 
+           object-fit: cover;
+           border-width: 1px;
+           border-style: solid;
+           cursor: pointer;
+           margin-right: 20px;
+        }
+        .container{
+            flex-direction: column;
+        }
+        
+       
+       .review {
+           margin-top: 40px;
+        }
+  
+       .review h3 {
+           font-size: 18px;
+           margin-bottom: 10px;
+        }
+  
+       .review textarea {
+           width: 50%;
+           height: 50px;
+           margin-bottom: 10px;
+        }
+  
+        .review input[type="submit"] {
+          background-color: grey;
+          color: white;
+          border: none;
+          padding: 10px 10px;
+          cursor: pointer;
+          font-size: 16px;
+        }
+  
+       .review input[type="submit"]:hover {
+           background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    
+
+<div class="ul">
+    <img src="ul.jpg" >
+
+    <div class="container">
+   <h2 class="title"> Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and the Unified Process (2nd Edition) 2nd Edition</h2>
+   <p class="author">by Craig Larman (Author)</p>
+    <p class="description"><cite>Applying UML and Patterns</cite> is the world's #1 business and college introduction to thinking in objects and using that insight in real-world object-oriented analysis and design. Building on two widely acclaimed previous editions, Craig Larman has updated this book to fully reflect the new UML 2 standard, to help you master the art of object design, and to promote high-impact, iterative, and skillful agile modeling practices.
+        Developers and students will learn object-oriented analysis and design (OOA/D) through three iterations of two cohesive, start-to-finish case studies. These case studies incrementally introduce key skills, essential  principles and patterns, UML notation, and best practices. You won't just learn UML diagrams you'll learn how to apply UML in the context of OO software development.
+        Drawing on his unsurpassed experience as a mentor and consultant, Larman helps you understand evolutionary requirements and use cases, domain object modeling, responsibility-driven design, essential OO design, layered architectures, Gang of Four design patterns, GRASP, iterative methods, an agile approach to the Unified Process (UP), and much more.</p>
+    </p>
+
+    <div class="review">
+    <h3>Leave a Review</h3>
+    <form>
+      <textarea placeholder="Write your review here"></textarea>
+      <input type="submit" value="Submit Review">
+    </form>
+  </div>
+
+</body>
+</html>

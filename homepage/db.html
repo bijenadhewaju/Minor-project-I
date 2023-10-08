@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .db {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        
+        .db img {
+            width: 193px;
+            height: 250px;
+            object-fit: cover;
+            border-width: 1px;
+            border-style: solid;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+
+        .container {
+            flex-direction: column;
+        }
+
+        .h2.db,
+        p.db {
+            text-decoration: none;
+            color: black;
+        }
+
+        .review {
+            margin-top: 40px;
+        }
+
+        .review h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        .review textarea {
+            width: 50%;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .review input[type="submit"] {
+            background-color: #5C3317;
+            color: white;
+            border: none;
+            padding: 10px 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .review input[type="submit"]:hover {
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bookcontainer">
+        <div class="bookItem">
+            <img src="../assets/db.jpg" alt="Book 1">
+            <h2 class="title"> ISE Database System Concepts 7th Edition</h2>
+            <p class="author">by Abraham Silberschatz (Author), Henry Korth (Author), S. Sudarshan (Author)</p>
+            <p class="description"><cite>Database System Concepts</cite> by Silberschatz, Korth and Sudarshan is now in
+                its 7th edition and is one of the cornerstone texts of database education. It presents the fundamental
+                concepts of database management in an intuitive manner geared toward allowing students to begin working
+                with databases as quickly as possible. The text is designed for a first course in databases at the
+                junior/senior undergraduate level or the first year graduate level. It also contains additional material
+                that can be used as supplements or as introductory material for an advanced course.
+
+            <div class="review">
+                <h3>Leave a Review</h3>
+                <form>
+                    <textarea placeholder="Write your review here"></textarea>
+                    <input type="submit" value="Submit Review">
+            </div>
+        </div>
+        <footer>
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Terms/Privacy</a>
+            </div>
+        </footer>
+
+</body>
+
+</html>
